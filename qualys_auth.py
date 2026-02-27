@@ -47,7 +47,6 @@ def get_token_basic() -> str:
         "username": username,
         "password": password,
         "token": "true",
-        "permissions": "true",
     }
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
 
