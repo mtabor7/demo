@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Base gateway URL — matches your Qualys platform region (qg1, qg2, qg3, etc.)
-QUALYS_GATEWAY = os.environ.get("QUALYS_GATEWAY", "https://gateway.qg3.apps.qualys.com")
+QUALYS_GATEWAY = os.environ.get("QUALYS_GATEWAY", "https://gateway.qg3.qualys.com")
 
 
 class QualysAuthError(Exception):

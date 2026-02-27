@@ -41,7 +41,7 @@ QUALYS_SCRIPT = os.environ.get(
 PYTHON_BIN = os.environ.get("QUALYS_PYTHON_BIN", sys.executable)
 
 # Base gateway URL (used by your script if it needs it)
-QUALYS_GATEWAY = os.environ.get("QUALYS_GATEWAY", "https://gateway.qg3.apps.qualys.com")
+QUALYS_GATEWAY = os.environ.get("QUALYS_GATEWAY", "https://gateway.qg3.qualys.com")
 
 
 # ---------------------------------------------------------------------------
